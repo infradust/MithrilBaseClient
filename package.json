@@ -1,0 +1,29 @@
+{
+  "name": "dswebapp",
+  "version": "0.0.1",
+  "description": "A base mithril web-client",
+  "repository":{
+	"type":"git",
+	"url":"https://github.com/infradust/MithrilBaseClient.git"
+  },
+  "main": "app.js",
+  "config": "./config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mithril"
+  ],
+  "author": "danshelly@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "jshint": "^2.9.2",
+    "preprocess": "^3.1.0",
+    "uglify-js": "^2.6.2",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "mithril": "^0.2.4"
+  }
+}
